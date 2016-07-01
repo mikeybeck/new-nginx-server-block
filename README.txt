@@ -1,4 +1,7 @@
 
+#NOTE:  This script uses sudo privileges to do stuff.  If you're not comfortable with that, DO NOT USE.  Or modify so it takes your password at a prompt or something.
+  
+
 This super simple script helps me set up a new server block and install an instance of Wordpress on my server at the speed of light.
 
 To use:
