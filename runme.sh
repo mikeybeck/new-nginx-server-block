@@ -7,6 +7,6 @@ USER="" # Username
 
 sed -i 's/\r$//' makenewserverblock.sh # Prevent any newline script breaking silliness
 
-cat makenewserverblock.sh | ssh $USER@SERVER
+cat makenewserverblock.sh | ssh $USER@$SERVER
 
 echo "Now go update the DNS!"
